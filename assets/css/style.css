@@ -44,3 +44,42 @@ body {
 .relogio span.tempo {
 	font-size: 24px;
 }
+
+/* INÍCIO RESPONSIVO ATÉ 500PX */
+@media screen and (max-width: 500px) {
+	.relogio {
+		width: 350px;
+		height: 120px;
+	}
+	.relogio div{
+		margin: 5px;
+		width: 100px;
+		height: 100px;
+	}
+	.relogio span {
+		font-size: 30px;
+	}
+	.relogio span.tempo {
+		font-size: 14px;
+	}
+}
+/* FIM RESPONSIVO ATÉ 425PX */
+
+/* INÍCIO RESPONSIVO DE 500PX A 768PX */
+@media screen and (min-width: 500px) and (max-width: 768px) {
+	.relogio {
+		width: 480px;
+		height: 180px;
+	}
+	.relogio div{
+		margin: 5px;
+		width: 140px;
+		height: 140px;
+	}
+	.relogio span {
+		font-size: 46px;
+	}
+	.relogio span.tempo {
+		font-size: 20px;
+	}
+}
